@@ -82,6 +82,7 @@ namespace ProjetoEventoConsole
                     Show show = new Show(titulo, local, lotacao, duracao, classificacao, data, artista, genero);                           
 
                     break;
+                    
                 }
                 
 
