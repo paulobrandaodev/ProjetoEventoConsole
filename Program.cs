@@ -220,12 +220,8 @@ namespace ProjetoEventoConsole
                             Console.WriteLine("Digite a data do evento: ");
                             DateTime data = Convert.ToDateTime(Console.ReadLine());
                             Console.WriteLine("Digite os horários das sessões separados por ';' : ");
-                            DateTime[] sessoes = null;
-                            string[] linhas = Console.ReadLine().Split(';');
-                            for (int i = 0; i < linhas.Length; i++)
-                            {
-                               sessoes += DateTime.Parse(linhas[i])+",";
-                            }
+                            Console.WriteLine("Digite os horários das sessões: ");
+                            string sessoes = Console.ReadLine();
                             
 
                             Console.WriteLine("Digite o gênero: ");
